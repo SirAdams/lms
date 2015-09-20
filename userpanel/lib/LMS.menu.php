@@ -56,7 +56,7 @@ $submenu[] =
 
 
 // Include userpanel.class
-require_once(USERPANEL_DIR.'/lib/Userpanel.class.php');
+require_once(USERPANEL_DIR.'/userpanel/lib/Userpanel.class.php');
 $USERPANEL = new USERPANEL($DB, $SESSION);
 
 // Initialize modules
